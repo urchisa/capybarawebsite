@@ -1,0 +1,200 @@
+/*
+img {
+    margin-top: -1.0%;
+}
+
+.large-font {
+    font-size: 3.5em;
+    transform: rotate(-10deg);
+}
+
+.normal-font {
+    font-size: 3em;
+}
+
+
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #362314;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #333;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+ul.projects {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.projects li {
+    margin-bottom: 10px;
+}
+
+/* Contact form styles */
+form#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form#contact-form input,
+form#contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form#contact-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form#contact-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #412e1c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+#popacapy {
+    background-color: yellowgreen;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#point {
+    font-size: 5em;
+    font-family: Nunito, sans-serif;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: -1.5%;
+}
+
+/*gallery's css*/
+
+.gallery {
+    margin: 10px 50px;
+}
+
+.gallery img {
+    width: 300px;
+    padding: 5px;
+    filter: grayscale(100%);
+}
+
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+/*navigation css*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #412e1c;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #534335;
+}
+
+.active {
+    background-color: #604c3b;
+}
